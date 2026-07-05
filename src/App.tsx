@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Cover from "./components/Cover";
+import Brides from "./components/Brides";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +31,6 @@ function App() {
             className="relative w-full md:max-w-md md:mx-auto md:shadow-2xl h-dvh overflow-y-auto bg-wedding-cream text-wedding-brown-dark snap-y snap-mandatory scroll-smooth select-none scrollbar-none flex flex-col @container"
           >
             {/* Header Wave Border (Fixed at the absolute top of the scroll container) */}
-            <div className="absolute top-0 left-0 right-0 rotate-180 -translate-y-5 pointer-events-none z-0">
-              <img src="" alt="" className="w-full object-cover" />
-            </div>
 
             {/* Javanese Gunungan Background Watermark */}
             <div
@@ -41,7 +39,9 @@ function App() {
             />
 
             {/* Combined Snapping Sections */}
-            <div className="w-full h-full"></div>
+            <div className="w-full h-full">
+              <Brides />
+            </div>
           </motion.main>
         )}
       </div>

@@ -30,6 +30,7 @@
 
   /* Ink / Black - aksen gelap */
   --color-wayang-ink-500: #1c1712;
+  --color-wayang-white: #ffffff;
 
   /* Custom Typography */
   --font-serif: "Cinzel", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -47,7 +48,7 @@ body {
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-wayang-cream-200);
+  background-color: var(--color-wayang-cream-50);
   color: var(--color-wedding-brown-dark);
   /* Safe area insets for notched phones (iPhone X+) */
   padding-top: env(safe-area-inset-top);
