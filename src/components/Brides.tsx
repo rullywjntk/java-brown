@@ -4,24 +4,6 @@ import weddingData from "../data/weddingData.json";
 function Brides() {
   return (
     <div className="w-full h-[100dvh] flex flex-col justify-between py-12 px-6 snap-start flex-shrink-0 relative z-10">
-      {/* Top Greeting Header */}
-      <motion.div
-        initial={{ opacity: 0, y: -15 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0 }}
-        transition={{ duration: 1.8, ease: [0.25, 1, 0.5, 1], delay: 0.2 }}
-        className="text-center space-y-1 mt-6"
-      >
-        <h2 className="font-serif text-xs font-bold uppercase tracking-widest text-wedding-brown-medium">
-          Mempelai Pernikahan
-        </h2>
-        <p className="font-sans text-xs leading-relaxed text-wedding-brown-dark/80 italic max-w-[280px] mx-auto">
-          "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
-          isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa
-          tenteram kepadanya..."
-        </p>
-      </motion.div>
-
       {/* Profiles Content */}
       <div className="flex flex-col items-center justify-center my-auto py-2 space-y-3.5 w-full">
         {/* Groom Profile */}
