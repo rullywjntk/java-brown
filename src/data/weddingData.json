@@ -1,0 +1,36 @@
+{
+  "couple": {
+    "groom": {
+      "shortName": "Rangga",
+      "fullName": "Rangga Wicaksono",
+      "parents": "Putra dari Bapak Irwan Wicaksono & Ibu Rina Lestari"
+    },
+    "bride": {
+      "shortName": "Annisa",
+      "fullName": "Annisa Rahmawati",
+      "parents": "Putri dari Bapak Budi Raharjo & Ibu Siti Aminah"
+    }
+  },
+  "events": {
+    "generalDate": "01 . 11 . 2026",
+    "countdownTarget": "2026-11-01T08:00:00",
+    "akad": {
+      "date": "Minggu, 01 November 2026",
+      "time": "Pukul 08.00 - 10.00 WIB",
+      "venue": "Pendopo Agung Royal Ambarrukmo",
+      "address": "Jl. Laksda Adisucipto No. 81, Yogyakarta"
+    },
+    "resepsi": {
+      "date": "Minggu, 01 November 2026",
+      "time": "Pukul 11.00 - 13.00 WIB",
+      "venue": "Pendopo Agung Royal Ambarrukmo",
+      "address": "Jl. Laksda Adisucipto No. 81, Yogyakarta"
+    }
+  },
+  "location": {
+    "venue": "Pendopo Agung Royal Ambarrukmo",
+    "address": "Jl. Laksda Adisucipto No. 81, Ambarukmo, Caturtunggal, Depok, Sleman, D.I. Yogyakarta",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.013589417242!2d110.40114757585098!3d-7.788358492231267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59e19d3bb7e7%3A0xc34a646c243f757b!2sPendopo%20Agung%20Royal%20Ambarrukmo!5e0!3m2!1sen!2sid!4v1717300000000!5m2!1sen!2sid",
+    "redirectUrl": "https://maps.app.goo.gl/PzSwhb1tEayD1D5fA"
+  }
+}
