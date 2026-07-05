@@ -3,7 +3,7 @@ import weddingData from "../data/weddingData.json";
 
 function Brides() {
   return (
-    <div className="w-full h-[100dvh] flex flex-col justify-between py-12 px-6 snap-start flex-shrink-0 relative z-10">
+    <div className="w-full h-dvh flex flex-col justify-between py-12 px-6 snap-start shrink-0 relative z-10">
       {/* Profiles Content */}
       <div className="flex flex-col items-center justify-center my-auto py-2 space-y-3.5 w-full">
         {/* Groom Profile */}
@@ -91,69 +91,6 @@ function Brides() {
               {weddingData.couple.bride.parents}
             </motion.p>
           </div>
-        </div>
-      </div>
-
-      {/* Footer Area */}
-      <div className="space-y-4 mb-2 flex flex-col items-center">
-        {/* Footer Signature Quote */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 0.8 }}
-          viewport={{ once: false, amount: 0 }}
-          transition={{ duration: 1.8, delay: 1.6 }}
-          className="text-center"
-        >
-          <p className="font-cursive text-lg text-wedding-gold">
-            Menciptakan Tenteram & Kasih Sayang
-          </p>
-        </motion.div>
-
-        {/* Javanese Tribal/Ornament Divider inside this viewport */}
-        <div className="w-full flex justify-center py-2 relative z-10 pointer-events-none">
-          <svg
-            className="w-48 h-8 text-wedding-gold"
-            viewBox="0 0 200 30"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* Center Javanese Gunungan Crest Miniature */}
-            <path
-              d="M100 2 L106 14 L102 14 L104 22 L96 22 L98 14 L94 14 Z"
-              fill="currentColor"
-            />
-            <circle cx="100" cy="26" r="1.5" fill="currentColor" />
-
-            {/* Left wing spiral */}
-            <path
-              d="M15 15 C30 5, 55 25, 75 15 C82 11, 88 18, 92 15"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-            />
-            <path
-              d="M35 13 C45 8, 60 20, 70 13"
-              stroke="currentColor"
-              strokeWidth="1"
-              strokeLinecap="round"
-              opacity="0.5"
-            />
-
-            {/* Right wing spiral */}
-            <path
-              d="M185 15 C170 5, 145 25, 125 15 C118 11, 112 18, 108 15"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-            />
-            <path
-              d="M165 13 C155 8, 140 20, 130 13"
-              stroke="currentColor"
-              strokeWidth="1"
-              strokeLinecap="round"
-              opacity="0.5"
-            />
-          </svg>
         </div>
       </div>
     </div>
