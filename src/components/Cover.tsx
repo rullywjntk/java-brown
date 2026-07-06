@@ -28,10 +28,10 @@ function Cover({ onOpen }: CoverProps) {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 1.15 }}
       transition={{ duration: 4.0, ease: [0.4, 0, 0.2, 1] }}
-      className="ornament-batik-wayang relative w-full md:max-w-md md:max-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden bg-wayang-cream-50"
+      className="relative w-full md:max-w-md md:max-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden bg-wayang-cream-50"
     >
       {/* top banner */}
-      <div className="monochrome-wedding-filter absolute top-0 rotate-270 translate-x-[6%] translate-y-[-35%] z-20">
+      <div className="ornament-batik-wayang absolute top-0 rotate-270 translate-x-[6%] translate-y-[-35%] z-20">
         <img
           src={bannerImg}
           alt="banner"
@@ -42,7 +42,7 @@ function Cover({ onOpen }: CoverProps) {
       <ChineseClouds />
 
       {/* logo gunungan */}
-      <div className="absolute text-center items-center justify-center flex flex-col w-full h-full">
+      <div className="ornament-batik-wayang absolute text-center items-center justify-center flex flex-col w-full h-full">
         <div className="absolute top-0 w-[10%] translate-y-20 z-20">
           <img src={gununganLogo} alt="banner" />
         </div>
@@ -100,7 +100,7 @@ function Cover({ onOpen }: CoverProps) {
             opacity: { duration: 2.0, delay: 1.8 },
             scale: { duration: 0.2 },
           }}
-          className="mt-3 px-5 py-2.5 bg-wayang-brown-600 text-wayang-cream-200 hover:bg-wayang-brown-400 transition-colors duration-300 font-sans text-xs tracking-wider uppercase rounded shadow flex items-center justify-center gap-1.5 cursor-pointer z-50"
+          className="mt-3 px-5 py-2.5 bg-wayang-brown-500 text-wayang-cream-200 hover:bg-wayang-brown-400 transition-colors duration-300 font-sans text-xs tracking-wider uppercase rounded shadow flex items-center justify-center gap-1.5 cursor-pointer z-50"
         >
           <svg
             className="w-3.5 h-3.5 text-wayang-gold-200 animate-bounce"
@@ -121,7 +121,7 @@ function Cover({ onOpen }: CoverProps) {
       </div>
 
       {/* Bottom banner */}
-      <div className="absolute bottom-0 rotate-90 w-[180%] translate-x-[-25%] translate-y-[36%] z-30">
+      <div className="ornament-batik-wayang absolute bottom-0 rotate-90 w-[180%] translate-x-[-25%] translate-y-[36%] z-30">
         <img
           src={bannerImg}
           alt="banner"
@@ -130,7 +130,7 @@ function Cover({ onOpen }: CoverProps) {
       </div>
 
       {/* Bottom banner 2*/}
-      <div className="absolute bottom-0 rotate-90 w-[150%] translate-x-[-8%] translate-y-[30%] z-10">
+      <div className="ornament-batik-wayang absolute bottom-0 rotate-90 w-[150%] translate-x-[-8%] translate-y-[30%] z-10">
         <img
           src={bannerImg}
           alt="banner"
@@ -153,7 +153,7 @@ function Cover({ onOpen }: CoverProps) {
             delay: 2.0,
           },
         }}
-        className="monochrome-wedding-filter absolute bottom-0 w-[30%] translate-x-[120%] translate-y-[-15%] z-10"
+        className="ornament-wayang-softener absolute bottom-0 w-[30%] translate-x-[120%] translate-y-[-15%] z-10"
       >
         <img
           src={wayangImg}
@@ -163,7 +163,7 @@ function Cover({ onOpen }: CoverProps) {
       </motion.div>
 
       {/* Wayang banner 2*/}
-      <div className="monochrome-wedding-filter absolute bottom-0 w-[30%] translate-x-[160%] translate-y-[-30%] z-0">
+      <div className="ornament-wayang-softener absolute bottom-0 w-[30%] translate-x-[160%] translate-y-[-30%] z-0">
         <img
           src={gununganImg}
           alt="banner"
@@ -186,7 +186,7 @@ function Cover({ onOpen }: CoverProps) {
             delay: 2.0,
           },
         }}
-        className="monochrome-wedding-filter absolute bottom-0 w-[40%] translate-x-[-90%] translate-y-[5%] z-20"
+        className="ornament-wayang-softener absolute bottom-0 w-[40%] translate-x-[-90%] translate-y-[5%] z-20"
       >
         <img
           src={wayangImg}
@@ -196,7 +196,7 @@ function Cover({ onOpen }: CoverProps) {
       </motion.div>
 
       {/* Wayang banner 1*/}
-      <div className="monochrome-wedding-filter absolute bottom-0 w-[40%] translate-x-[-120%] translate-y-[-5%] z-10">
+      <div className="ornament-wayang-softener absolute bottom-0 w-[40%] translate-x-[-120%] translate-y-[-5%] z-10">
         <img
           src={gununganImg}
           alt="banner"

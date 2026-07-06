@@ -20,7 +20,7 @@ function MainContent() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1.0 }}
-      className="monochrome-wedding-filter relative w-full md:max-w-md md:mx-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden"
+      className="ornament-batik-wayang relative w-full md:max-w-md md:mx-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden"
     >
       {/* top banner */}
       <div className="absolute top-0 rotate-270 translate-x-[6%] translate-y-[-35%] z-20">
