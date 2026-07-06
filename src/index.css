@@ -4,32 +4,32 @@
 @import "tailwindcss";
 
 @theme {
-  /* Cream / Ivory - warna dasar kertas */
-  --color-wayang-cream-50: #fdfaf3;
-  --color-wayang-cream-100: #f8f0dc;
-  --color-wayang-cream-200: #f0e2bd;
-  --bg-color-cream-300: #e8d49e;
+  /* Cream / Ivory - diselaraskan agar lebih hangat seperti gambar referensi */
+  --color-wayang-cream-50: #fbf7ec;
+  --color-wayang-cream-100: #f5edd6;
+  --color-wayang-cream-200: #ebdcb5;
+  --bg-color-cream-300: #ebdcb5;
 
-  /* Gold / Ochre - warna ornamen utama */
-  --color-wayang-gold-100: #e6c878;
-  --color-wayang-gold-200: #d4af5a;
-  --color-wayang-gold-300: #c19a3f;
-  --color-wayang-gold-400: #a8822e;
-  --color-wayang-gold-500: #8f6b22;
+  /* Gold / Ochre - diubah menjadi cokelat keemasan monokrom hangat */
+  --color-wayang-gold-100: #d9be83;
+  --color-wayang-gold-200: #c5a35f;
+  --color-wayang-gold-300: #aa8643;
+  --color-wayang-gold-400: #937134;
+  --color-wayang-gold-500: #7a5c27;
 
-  /* Sepia / Brown - detail garis & bayangan */
-  --bg-color-brown-300: #7a5a2e;
-  --color-wayang-brown-400: #5e421f;
-  --color-wayang-brown-500: #432e15;
-  --color-wayang-brown-600: #2e1e0e;
+  /* Sepia / Brown - detail garis disamakan tone-nya */
+  --bg-color-brown-300: #725329;
+  --color-wayang-brown-400: #5c411e;
+  --color-wayang-brown-500: #463014;
+  --color-wayang-brown-600: #33210b;
 
-  /* Maroon / Deep Red - kain/tirai bawah */
-  --color-wayang-maroon-400: #9a3324;
-  --color-wayang-maroon-500: #7c2417;
-  --color-wayang-maroon-600: #5c180f;
+  /* Maroon ditiadakan (diarahkan ke rumpun cokelat agar monokrom murni) */
+  --color-wayang-maroon-400: #5c411e;
+  --color-wayang-maroon-500: #463014;
+  --color-wayang-maroon-600: #33210b;
 
-  /* Ink / Black - aksen gelap */
-  --color-wayang-ink-500: #1c1712;
+  /* Ink / Black */
+  --color-wayang-ink-500: #22190f;
   --color-wayang-white: #ffffff;
 
   /* Custom Typography */
@@ -49,8 +49,7 @@ body {
 body {
   font-family: var(--font-sans);
   background-color: var(--color-wayang-cream-50);
-  color: var(--color-wedding-brown-dark);
-  /* Safe area insets for notched phones (iPhone X+) */
+  color: var(--color-wayang-brown-500);
   padding-top: env(safe-area-inset-top);
   padding-bottom: env(safe-area-inset-bottom);
   padding-left: env(safe-area-inset-left);
@@ -60,4 +59,9 @@ body {
 #root {
   height: 100%;
   height: 100dvh;
+}
+
+/* Trik CSS Filter Utama untuk meratakan warna aset gambar bawaan */
+.monochrome-wedding-filter img {
+  filter: sepia(45%) saturate(85%) contrast(95%) brightness(102%);
 }

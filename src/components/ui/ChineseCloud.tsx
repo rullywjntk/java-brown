@@ -3,7 +3,7 @@ import type { Easing } from "framer-motion";
 import chineseCloud from "../../assets/chinese_cloud4.png";
 
 const CLOUD_FILTER =
-  "grayscale(1) brightness(0) invert(21%) sepia(21%) saturate(983%) hue-rotate(334deg) brightness(94%) contrast(92%)";
+  "grayscale(1) brightness(0) invert(40%) sepia(30%) saturate(600%) hue-rotate(15deg) brightness(90%) contrast(90%)";
 
 const cloudVariants = {
   initial: { opacity: 0, x: -10 },
