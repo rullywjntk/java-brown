@@ -28,10 +28,10 @@ function Cover({ onOpen }: CoverProps) {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 1.15 }}
       transition={{ duration: 4.0, ease: [0.4, 0, 0.2, 1] }}
-      className="monochrome-wedding-filter relative w-full md:max-w-md md:max-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden bg-color-brown-300"
+      className=" relative w-full md:max-w-md md:max-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden bg-color-brown-300"
     >
       {/* top banner */}
-      <div className="absolute top-0 rotate-270 translate-x-[6%] translate-y-[-35%] z-20">
+      <div className="monochrome-wedding-filter absolute top-0 rotate-270 translate-x-[6%] translate-y-[-35%] z-20">
         <img
           src={bannerImg}
           alt="banner"
@@ -153,7 +153,7 @@ function Cover({ onOpen }: CoverProps) {
             delay: 2.0,
           },
         }}
-        className="absolute bottom-0 w-[30%] translate-x-[120%] translate-y-[-15%] z-10"
+        className="monochrome-wedding-filter absolute bottom-0 w-[30%] translate-x-[120%] translate-y-[-15%] z-10"
       >
         <img
           src={wayangImg}
@@ -163,7 +163,7 @@ function Cover({ onOpen }: CoverProps) {
       </motion.div>
 
       {/* Wayang banner 2*/}
-      <div className="absolute bottom-0 w-[30%] translate-x-[160%] translate-y-[-30%] z-0">
+      <div className="monochrome-wedding-filter absolute bottom-0 w-[30%] translate-x-[160%] translate-y-[-30%] z-0">
         <img
           src={gununganImg}
           alt="banner"
@@ -186,7 +186,7 @@ function Cover({ onOpen }: CoverProps) {
             delay: 2.0,
           },
         }}
-        className="absolute bottom-0 w-[40%] translate-x-[-90%] translate-y-[5%] z-20"
+        className="monochrome-wedding-filter absolute bottom-0 w-[40%] translate-x-[-90%] translate-y-[5%] z-20"
       >
         <img
           src={wayangImg}
@@ -196,7 +196,7 @@ function Cover({ onOpen }: CoverProps) {
       </motion.div>
 
       {/* Wayang banner 1*/}
-      <div className="absolute bottom-0 w-[40%] translate-x-[-120%] translate-y-[-5%] z-10">
+      <div className="monochrome-wedding-filter absolute bottom-0 w-[40%] translate-x-[-120%] translate-y-[-5%] z-10">
         <img
           src={gununganImg}
           alt="banner"
