@@ -28,7 +28,7 @@ function Cover({ onOpen }: CoverProps) {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 1.15 }}
       transition={{ duration: 4.0, ease: [0.4, 0, 0.2, 1] }}
-      className=" relative w-full md:max-w-md md:max-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden bg-color-brown-300"
+      className=" relative w-full md:max-w-md md:max-auto md:shadow-2xl h-dvh flex flex-col items-center justify-between overflow-hidden bg-wayang-cream-50"
     >
       {/* top banner */}
       <div className="monochrome-wedding-filter absolute top-0 rotate-270 translate-x-[6%] translate-y-[-35%] z-20">

@@ -8,7 +8,7 @@
   --color-wayang-cream-50: #fbf7ec;
   --color-wayang-cream-100: #f5edd6;
   --color-wayang-cream-200: #ebdcb5;
-  --bg-color-cream-300: #ebdcb5;
+  --color-wayang-cream-300: #ebdcb5;
 
   /* Gold / Ochre - diubah menjadi cokelat keemasan monokrom hangat */
   --color-wayang-gold-100: #d9be83;
@@ -18,7 +18,7 @@
   --color-wayang-gold-500: #7a5c27;
 
   /* Sepia / Brown - detail garis disamakan tone-nya */
-  --bg-color-brown-300: #725329;
+  --color-wayang-brown-300: #725329;
   --color-wayang-brown-400: #5c411e;
   --color-wayang-brown-500: #463014;
   --color-wayang-brown-600: #33210b;

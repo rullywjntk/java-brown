@@ -11,7 +11,7 @@ function App() {
   };
   return (
     <div className="min-h-screen w-full bg-color-cream-300 lg:px-10 overflow-hidden">
-      <div className="relative w-full md:max-w-md md:mx-auto md:shadow-2xl h-dvh overflow-y-auto bg-color-brown-300 max-w-6xl justify-center">
+      <div className="relative w-full md:max-w-md md:mx-auto md:shadow-2xl h-dvh overflow-y-auto bg-wayang-cream-50 max-w-6xl justify-center">
         <AnimatePresence mode="wait">
           {!isOpen ? (
             <Cover key="cover" onOpen={handleOpen} />
