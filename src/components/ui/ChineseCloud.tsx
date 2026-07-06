@@ -2,12 +2,11 @@ import { motion } from "framer-motion";
 import type { Easing } from "framer-motion";
 import chineseCloud from "../../assets/chinese_cloud4.png";
 
-const CLOUD_FILTER =
-  "grayscale(1) brightness(0) invert(40%) sepia(30%) saturate(600%) hue-rotate(15deg) brightness(90%) contrast(90%)";
+const CLOUD_FILTER = "sepia(1) saturate(0.5) contrast(0.7) brightness(1.1)";
 
 const cloudVariants = {
   initial: { opacity: 0, x: -10 },
-  animate: { opacity: 1, x: 10 },
+  animate: { opacity: 0.6, x: 10 },
   exit: { opacity: 0 },
 };
 

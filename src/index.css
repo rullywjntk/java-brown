@@ -1,32 +1,27 @@
-/* theme.css - Wayang Kirana Theme */
+/* index.css */
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 @import "tailwindcss";
 
 @theme {
-  /* Cream / Ivory - diselaraskan agar lebih hangat seperti gambar referensi */
+  /* Cream / Ivory - Sesuai gambar referensi yang hangat */
   --color-wayang-cream-50: #fbf7ec;
   --color-wayang-cream-100: #f5edd6;
   --color-wayang-cream-200: #ebdcb5;
   --color-wayang-cream-300: #ebdcb5;
 
-  /* Gold / Ochre - diubah menjadi cokelat keemasan monokrom hangat */
-  --color-wayang-gold-100: #d9be83;
-  --color-wayang-gold-200: #c5a35f;
+  /* Gold / Ochre - Warna aksen teks */
+  --color-wayang-gold-100: #f5edd6;
+  --color-wayang-gold-200: #ebdcb5;
   --color-wayang-gold-300: #aa8643;
   --color-wayang-gold-400: #937134;
   --color-wayang-gold-500: #7a5c27;
 
-  /* Sepia / Brown - detail garis disamakan tone-nya */
-  --color-wayang-brown-300: #725329;
-  --color-wayang-brown-400: #5c411e;
-  --color-wayang-brown-500: #463014;
-  --color-wayang-brown-600: #33210b;
-
-  /* Maroon ditiadakan (diarahkan ke rumpun cokelat agar monokrom murni) */
-  --color-wayang-maroon-400: #5c411e;
-  --color-wayang-maroon-500: #463014;
-  --color-wayang-maroon-600: #33210b;
+  /* Sepia / Brown - Diubah menjadi cokelat keemasan hangat untuk Tombol & Teks UI */
+  --color-wayang-brown-300: #aa8643;
+  --color-wayang-brown-400: #937134;
+  --color-wayang-brown-500: #7a5c27;
+  --color-wayang-brown-600: #aa8643; /* Warna utama tombol "BUKA" */
 
   /* Ink / Black */
   --color-wayang-ink-500: #22190f;
@@ -38,9 +33,10 @@
   --font-sans: "Montserrat", system-ui, -apple-system, sans-serif;
 }
 
-/* Base Body Styling for Wedding Vibe */
+/* Base Body Styling */
 html,
-body {
+body,
+#root {
   height: 100%;
   height: 100dvh;
   overflow: hidden;
@@ -56,12 +52,14 @@ body {
   padding-right: env(safe-area-inset-right);
 }
 
-#root {
-  height: 100%;
-  height: 100dvh;
+/* Filter Utama untuk meratakan warna aset gambar border/banner bawaan */
+.ornament-batik-wayang {
+  filter: sepia(0.6) saturate(0.8) contrast(0.95) brightness(1.02);
 }
 
-/* Trik CSS Filter Utama untuk meratakan warna aset gambar bawaan */
-.monochrome-wedding-filter img {
-  filter: sepia(45%) saturate(85%) contrast(95%) brightness(102%);
+/* KUNCI PERBAIKAN: Filter khusus untuk mengubah siluet Wayang/Gunungan hitam pekat 
+   menjadi cokelat keemasan transparan yang menyatu dengan latar belakang */
+.ornament-wayang-softener img {
+  filter: sepia(1) saturate(0.6) contrast(0.65) brightness(1.2);
+  opacity: 0.85;
 }
